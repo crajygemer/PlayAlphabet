@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--A-->
+    <Button
+        android:onClick="playA"
+    android:id="@+id/alphabetA"
+    android:layout_weight="1"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp"
+    android:background="@color/A"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <!--B-->
+
+    <Button
+        android:onClick="playB"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/alphabetB"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--C-->
+    <Button
+        android:onClick="playC"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/alphabetC"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--D-->
+    <Button
+        android:onClick="playD"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/alphabetD"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--E-->
+    <Button
+        android:onClick="playE"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/alphabetE"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--F-->
+    <Button
+        android:onClick="playF"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:id="@+id/alphabetF"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--G-->
+    <Button
+        android:onClick="playG"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/alphabetG"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/G"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
